@@ -31,7 +31,7 @@ A widow will open automatically in browser with the project
 
 5. winningHandChecker.js
 
-- I did not have time to get very far on this. It will take a bit more time to write a combination function to get all the possible combinations of 3 from the hand. I actually did not come up with a good/efficient way to do this.
+- I did not have time to get very far on this. It will take a bit more time to write a combination function to get all the possible combinations of 3 from the hand. I actually did not come up with a good/efficient way to do this, but I think a recursive function would be a good fit.
 
 - The checkIsRunningMeld and checkIsSetMeld functions are similar, but I don't think I would use the reduce function if I were to rewrite it. It doesn't stop if the set has already been confirmed to not be a meld, so it's not very efficient. It's also not reducing the set down to anything, I just used it as a temporary way to loop over an array holding onto the last card.
 
